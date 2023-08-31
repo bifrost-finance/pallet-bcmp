@@ -13,7 +13,7 @@ frame-support = { workspace = true }
 frame-system.workspace = true
 sp-std.workspace = true
 scale-info = { workspace = true, features = ["derive", "serde", "decode"] }
-sp-io = { workspace = true, features = ['disable_oom', 'disable_panic_handler'] }
+sp-io = { workspace = true }
 sp-core.workspace = true
 impl-trait-for-tuples.workspace = true
 
