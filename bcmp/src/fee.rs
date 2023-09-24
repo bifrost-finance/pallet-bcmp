@@ -21,7 +21,7 @@ pub struct GasConfig {
 }
 
 impl<T: Config> crate::Pallet<T> {
-    pub(crate) fn calculate_total_fee(
+    pub fn calculate_total_fee(
         payload_size: u64,
         fee_standard: GasConfig,
     ) -> BalanceOf<T> {
